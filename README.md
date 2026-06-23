@@ -1,30 +1,45 @@
 # Close Multiple Tabs
 
-Close all tabs of the browser "left/right/other" by shortcut.
+Close browser tabs to the left, right, or all other positions with shortcut keys.
 
-## Configure shortcut keys
+## Shortcuts
 
-Enter `chrome://extensions/shortcuts` in the browser address bar to configure shortcut keys:
+Configure shortcuts in your browser's extension shortcut settings:
 
+```text
+Chrome: chrome://extensions/shortcuts
+Edge: edge://extensions/shortcuts
+Firefox: about:addons -> Manage Extension Shortcuts
+```
 
-- `Alt+Shift+R`, Close Tabs to right
-- `Alt+Shift+L`, Close Tabs to left
-- `Alt+Shift+O`, Close other Tabs
+Default shortcuts:
 
-It is recommended to use it with WGestures, it is so cool.
+- `Alt+Shift+R`: Close tabs to the right
+- `Alt+Shift+L`: Close tabs to the left
+- `Alt+Shift+O`: Close other tabs
+
+Pinned tabs are preserved.
 
 ---
 
 # 关闭多个标签
 
-通过快捷键方式关闭浏览器“左侧/右侧/其它”所有标签页。
+通过快捷键关闭浏览器左侧、右侧或其它标签页。
 
-## 配置按键
+## 快捷键
 
-在浏览器地址栏输入 `chrome://extensions/shortcuts`，配置按键：
+在浏览器扩展快捷键设置中配置快捷键：
 
-- `Alt+Shift+R`, 关闭右侧标签页
-- `Alt+Shift+L`, 关闭左侧标签页
-- `Alt+Shift+O`, 关闭其它标签页
+```text
+Chrome: chrome://extensions/shortcuts
+Edge: edge://extensions/shortcuts
+Firefox: about:addons -> Manage Extension Shortcuts
+```
 
-建议搭配 WGestures 用，爽得不要不要的。
+默认快捷键：
+
+- `Alt+Shift+R`：关闭右侧标签页
+- `Alt+Shift+L`：关闭左侧标签页
+- `Alt+Shift+O`：关闭其它标签页
+
+固定标签页会保留。
