@@ -1,14 +1,9 @@
 {
   "name": "browser-close-multiple-tabs",
-  "description": "Close browser tabs to the left, right, or other positions with shortcut keys.",
-  "private": true,
   "version": "2.0.0",
+  "private": true,
+  "description": "Close browser tabs to the left, right, or other positions with shortcut keys.",
   "type": "module",
-  "packageManager": "pnpm@11.8.0",
-  "engines": {
-    "node": ">=24.0.0",
-    "pnpm": ">=11.8.0"
-  },
   "scripts": {
     "dev": "wxt -b chrome --mv3",
     "dev:chrome": "wxt -b chrome --mv3",
@@ -30,9 +25,10 @@
     "postinstall": "wxt prepare"
   },
   "devDependencies": {
-    "rimraf": "6.1.3",
-    "typescript": "^6.0.3",
-    "vitest": "^4.1.9",
+    "rimraf": "^6.1.3",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11",
     "wxt": "^0.20.26"
-  }
+  },
+  "packageManager": "pnpm@11.25.0"
 }
