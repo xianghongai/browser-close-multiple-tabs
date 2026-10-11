@@ -6,7 +6,6 @@ export default defineConfig({
     name: '__MSG_appName__',
     description: '__MSG_appDesc__',
     default_locale: 'en',
-    permissions: ['tabs'],
     commands: {
       'close-right-tabs': {
         suggested_key: {
