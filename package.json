@@ -22,6 +22,7 @@
     "postinstall": "wxt prepare"
   },
   "devDependencies": {
+    "@wxt-dev/auto-icons": "^1.1.2",
     "rimraf": "^6.1.3",
     "typescript": "^7.0.2",
     "vitest": "^4.1.11",
