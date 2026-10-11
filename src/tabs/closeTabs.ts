@@ -25,11 +25,7 @@ function getTabIds(tabs: readonly CandidateTab[]) {
  * The background entrypoint passes only non-active, non-pinned tabs, so this
  * helper only decides relative position and filters out tabs without IDs.
  */
-export function getTabsToClose(
-  command: string,
-  currentTabIndex: number,
-  tabs: readonly CandidateTab[],
-): number[] {
+export function getTabsToClose(command: string, currentTabIndex: number, tabs: readonly CandidateTab[]): number[] {
   switch (command) {
     case CLOSE_OTHER_TABS_COMMAND:
       return getTabIds(tabs);

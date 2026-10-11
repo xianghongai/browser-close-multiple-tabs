@@ -32,10 +32,8 @@ describe('getTabsToClose', () => {
   });
 
   it('skips candidate tabs without numeric ids', () => {
-    expect(getTabsToClose('close-other-tabs', 1, [
-      { id: 21, index: 0 },
-      { index: 1 },
-      { id: 22, index: 2 },
-    ])).toEqual([21, 22]);
+    expect(getTabsToClose('close-other-tabs', 1, [{ id: 21, index: 0 }, { index: 1 }, { id: 22, index: 2 }])).toEqual([
+      21, 22,
+    ]);
   });
 });
