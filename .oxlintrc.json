@@ -9,7 +9,7 @@
     "typescript/no-explicit-any": "error",
     "typescript/no-unused-vars": "warn",
     "curly": "warn",
-    "eqeqeq": "warn",
+    "eqeqeq": ["warn", "smart"],
     "no-throw-literal": "warn"
   }
 }
