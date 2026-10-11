@@ -3,15 +3,18 @@
     "message": "Close Multiple Tabs"
   },
   "appDesc": {
-    "message": "Close Tabs to Right/Left/Other With a Shortcut Key"
+    "message": "Close Tabs Above/Below/Other With a Shortcut Key or the Context Menu"
   },
-  "closeTabsToRight": {
-    "message": "Close Tabs to right"
+  "closeTabs": {
+    "message": "Close Tabs"
   },
-  "closeTabsToLeft": {
-    "message": "Close Tabs to left"
+  "closeTabsAbove": {
+    "message": "Close Tabs Above"
+  },
+  "closeTabsBelow": {
+    "message": "Close Tabs Below"
   },
   "closeOtherTabs": {
-    "message": "Close other Tabs"
+    "message": "Close Other Tabs"
   }
 }

@@ -10,11 +10,11 @@ describe('getTabsToClose', () => {
     { id: 13, index: 3 },
   ];
 
-  it('returns only tab ids to the right of the current tab', () => {
+  it('returns only tab ids below (after) the current tab', () => {
     expect(getTabsToClose('close-right-tabs', 1, candidateTabs)).toEqual([12, 13]);
   });
 
-  it('returns only tab ids to the left of the current tab', () => {
+  it('returns only tab ids above (before) the current tab', () => {
     expect(getTabsToClose('close-left-tabs', 2, candidateTabs)).toEqual([10, 11]);
   });
 

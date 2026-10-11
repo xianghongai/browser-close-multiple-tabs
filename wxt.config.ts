@@ -2,22 +2,25 @@ import { defineConfig } from 'wxt';
 
 export default defineConfig({
   srcDir: 'src',
-  manifest: ({ browser }) => ({
+  manifest: {
     name: '__MSG_appName__',
     description: '__MSG_appDesc__',
     default_locale: 'en',
+    permissions: ['contextMenus'],
+    // Command IDs keep their original left/right names so existing custom
+    // shortcuts survive upgrades; only the user-facing wording is above/below.
     commands: {
-      'close-right-tabs': {
-        suggested_key: {
-          default: 'Alt+Shift+R',
-        },
-        description: '__MSG_closeTabsToRight__',
-      },
       'close-left-tabs': {
         suggested_key: {
           default: 'Alt+Shift+L',
         },
-        description: '__MSG_closeTabsToLeft__',
+        description: '__MSG_closeTabsAbove__',
+      },
+      'close-right-tabs': {
+        suggested_key: {
+          default: 'Alt+Shift+R',
+        },
+        description: '__MSG_closeTabsBelow__',
       },
       'close-other-tabs': {
         suggested_key: {
@@ -32,14 +35,5 @@ export default defineConfig({
       48: '48.png',
       128: '128.png',
     },
-    browser_specific_settings: browser === 'firefox'
-      ? {
-        gecko: {
-          data_collection_permissions: {
-            required: ['none'],
-          },
-        },
-      }
-      : undefined,
-  }),
+  },
 });

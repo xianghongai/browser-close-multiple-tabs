@@ -3,13 +3,16 @@
     "message": "Close Multiple Tabs"
   },
   "appDesc": {
-    "message": "通过快捷键方式关闭浏览器“左侧/右侧/其它”所有标签页"
+    "message": "通过快捷键或右键菜单关闭浏览器“前面/后面/其它”所有标签页"
   },
-  "closeTabsToRight": {
-    "message": "关闭右侧标签页"
+  "closeTabs": {
+    "message": "关闭标签页"
   },
-  "closeTabsToLeft": {
-    "message": "关闭左侧标签页"
+  "closeTabsAbove": {
+    "message": "关闭前面标签页"
+  },
+  "closeTabsBelow": {
+    "message": "关闭后面标签页"
   },
   "closeOtherTabs": {
     "message": "关闭其它标签页"
